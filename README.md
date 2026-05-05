@@ -114,4 +114,4 @@ This repo is configured as a **single Render web service** that builds the clien
 
 ## Submission
 - **Live URL:** [https://team-task-manager-whke.onrender.com](https://team-task-manager-whke.onrender.com)
-- **GitHub Repo:** [https://github.com/Pragyavashisht08/Team-task-manager-](https://github.com/Pragyavashisht08/Team-task-manager-)
+- **GitHub Repo:** [https://github.com/Pragyavashisht08/Team-task-manager](https://github.com/Pragyavashisht08/Team-task-manager)
