@@ -1,0 +1,19 @@
+# Nixpacks build config for Railway.
+# A single service: install both workspaces, build the React client, run Express.
+
+[phases.setup]
+nixPkgs = ["nodejs_20", "npm-9_x"]
+
+[phases.install]
+cmds = [
+  "npm install --prefix server --omit=dev",
+  "npm install --prefix client"
+]
+
+[phases.build]
+cmds = [
+  "npm run build --prefix client"
+]
+
+[start]
+cmd = "npm start --prefix server"
